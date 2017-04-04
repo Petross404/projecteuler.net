@@ -10,33 +10,36 @@
 #include <numeric>
 
 int main ( int argc, char** argv ) {
-    vector<int> v{0, 1, 1};
+    vector<int> v {0, 1, 1};
     int sum;
 
-    do{
-        vector<int>::iterator last = (end(v) - 1);
-        vector<int>::iterator preLast = (end(v) - 2);
-        sum = (*preLast) + (*last);
-        v.push_back(sum);
+    do {
+        vector<int>::iterator last = ( end ( v ) - 1 );
+        vector<int>::iterator preLast = ( end ( v ) - 2 );
+        sum = ( *preLast ) + ( *last );
+        v.push_back ( sum );
 
-    }while(sum < 4000000);
+    } while ( sum < 4000000 );
 
-    for (auto &elem : v){
+    for ( auto& elem : v ) {
         cout << elem << '\n';
     }
+
     cout << "Sum before removing the odds is :" << sum << '\n';
 
     // Remove every odd number
     // Could use auto rmv,  but anyway
     vector<int>::iterator rmv;
-    rmv = remove_if(begin(v), end(v), [](int x){return (x % 2);});
-    v.erase(rmv, end(v));
+    rmv = remove_if ( begin ( v ), end ( v ), [] ( int x ) {
+        return ( x % 2 );
+    } );
+    v.erase ( rmv, end ( v ) );
 
-    for(auto &elem : v){
+    for ( auto& elem : v ) {
         cout << elem << endl;
     }
 
-    sum = accumulate(begin(v), end(v), 0);
+    sum = accumulate ( begin ( v ), end ( v ), 0 );
     cout << "Sum after removing the odds is : " << sum << '\n';
     return ( 0 );
 }

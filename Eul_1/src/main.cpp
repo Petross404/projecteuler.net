@@ -6,20 +6,19 @@
 #include <numeric>
 
 int main ( int argc, char** argv ) {
-
     vector<int> v;
 
-    for(auto i{0}; i < 1000; ++i) {
-        if (!(i % 3) || !(i % 5)){
-            v.push_back(i);
+    for ( auto i {0}; i < 1000; ++i ) {
+        if ( ! ( i % 3 ) || ! ( i % 5 ) ) {
+            v.push_back ( i );
         }
     }
 
-    for (auto &elem : v){
+    for ( auto& elem : v ) {
         cout << elem << endl;
     }
 
-    auto summary = accumulate(begin(v), end(v), 0);
+    auto summary = accumulate ( begin ( v ), end ( v ), 0 );
     cout << "Sum = " << summary;
 
     return ( 0 );
