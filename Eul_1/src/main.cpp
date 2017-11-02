@@ -8,7 +8,8 @@
 int main ( int argc, char** argv ) {
     vector<int> v;
 
-    for ( auto i {0}; i < 1000; ++i ) {
+    int i;
+    for ( i = 0; i < 1000; ++i ) {
         if ( ! ( i % 3 ) || ! ( i % 5 ) ) {
             v.push_back ( i );
         }

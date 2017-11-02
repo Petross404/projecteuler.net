@@ -1,0 +1,815 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		07DEF74D67B7444FA04CE7F9 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F5C8E0F277264199B7E9EA86 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				ED4E43252F3E43D08BB29987 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				5A1692A3AD9649BDADE94D35 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		7D37399E067A4BC9A7E63990 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = EC88F1EBD67A42799B9B4810 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				3F26F63DA83D45438EB84651 /* CMake Rules */,
+			);
+			dependencies = (
+				C169FC40B0174E6698856C78 /* PBXTargetDependency */,
+				ECC59C19792C46639936A440 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		F89CEF633BC94AAF9E0C8DC7 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 10081B26E00146CAA6E32B27 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				A6F27933A9F3442FA0C6251F /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		68A134F7993C427C98077FA6 /* /Users/petros/Documents/projecteuler.net/Eul_1/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = CE5B1C361AFB4FC7AC9090C1 /* /Users/petros/Documents/projecteuler.net/Eul_1/src/CMakeLists.txt */; };
+		96947ADD495744DABB12C694 /* /Users/petros/Documents/projecteuler.net/Eul_1/src/main.cpp */ = {isa = PBXBuildFile; fileRef = DFF744CD41F84A62B819571E /* /Users/petros/Documents/projecteuler.net/Eul_1/src/main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		4D1AC74FD3AA46FF95CD3F87 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		87922F1F33D343B6986C2C99 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		8C4E6AAD246642908C16B2A6 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		C62FE0D769C846DA9802A954 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		20E60BE347BD4F2DA9D0429D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0FC2D40215054DA0980BD6B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F89CEF633BC94AAF9E0C8DC7;
+			remoteInfo = ZERO_CHECK;
+		};
+		89F9AC5BF45D4CBEAAFF04F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0FC2D40215054DA0980BD6B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B50FFEE3A5341C198B212E4;
+			remoteInfo = eul_1;
+		};
+		A0C8B8BCD0AE4353B32378B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0FC2D40215054DA0980BD6B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F89CEF633BC94AAF9E0C8DC7;
+			remoteInfo = ZERO_CHECK;
+		};
+		F2769442AA9D41D18AA38D3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0FC2D40215054DA0980BD6B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D37399E067A4BC9A7E63990;
+			remoteInfo = ALL_BUILD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		128B971A98BB490FAA14ED94 /* eul_1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = eul_1; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE324A3D912D4BA7BF310ACC /* /Users/petros/Documents/projecteuler.net/Eul_1/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		CE5B1C361AFB4FC7AC9090C1 /* /Users/petros/Documents/projecteuler.net/Eul_1/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		CF42BA08952A4F28B94ACAA4 /* /Users/petros/Documents/projecteuler.net/Eul_1/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		DFF744CD41F84A62B819571E /* /Users/petros/Documents/projecteuler.net/Eul_1/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		258A655160A7443BB5E41E94 = {
+			isa = PBXGroup;
+			children = (
+				C1B5EF4A66F24CC683981EA3 /* ALL_BUILD */,
+				38AF15D3D50A441EA195BBE1 /* ZERO_CHECK */,
+				3C0F625F54E6464E8CEC47AB /* eul_1 */,
+				62FBC74530EB43D99D8BBF01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38AF15D3D50A441EA195BBE1 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				4A555B0010D24BEB8036B899 /* CMake Rules */,
+				AE324A3D912D4BA7BF310ACC /* /Users/petros/Documents/projecteuler.net/Eul_1/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		3C0F625F54E6464E8CEC47AB /* eul_1 */ = {
+			isa = PBXGroup;
+			children = (
+				60556E9E6F774CC9AFF4A9B7 /* Source Files */,
+				CE5B1C361AFB4FC7AC9090C1 /* /Users/petros/Documents/projecteuler.net/Eul_1/src/CMakeLists.txt */,
+			);
+			name = eul_1;
+			sourceTree = "<group>";
+		};
+		4A555B0010D24BEB8036B899 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		60556E9E6F774CC9AFF4A9B7 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFF744CD41F84A62B819571E /* /Users/petros/Documents/projecteuler.net/Eul_1/src/main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		62FBC74530EB43D99D8BBF01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				128B971A98BB490FAA14ED94 /* eul_1 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCEFE1C425D047368C52A384 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		C1B5EF4A66F24CC683981EA3 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				BCEFE1C425D047368C52A384 /* CMake Rules */,
+				CF42BA08952A4F28B94ACAA4 /* /Users/petros/Documents/projecteuler.net/Eul_1/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B50FFEE3A5341C198B212E4 /* eul_1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7ED6C910A8D4E8F8894795A /* Build configuration list for PBXNativeTarget "eul_1" */;
+			buildPhases = (
+				0C32A0D71C744DC48F1B2AA9 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24AC71D3705745A19A9C118E /* PBXTargetDependency */,
+			);
+			name = eul_1;
+			productName = eul_1;
+			productReference = 128B971A98BB490FAA14ED94 /* eul_1 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0FC2D40215054DA0980BD6B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0900;
+			};
+			buildConfigurationList = D59CA7C92B704AC38ED740CC /* Build configuration list for PBXProject "eul_1" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				C62FE0D769C846DA9802A954 /* Debug */,
+				87922F1F33D343B6986C2C99 /* Release */,
+				4D1AC74FD3AA46FF95CD3F87 /* MinSizeRel */,
+				8C4E6AAD246642908C16B2A6 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 258A655160A7443BB5E41E94;
+			projectDirPath = .;
+			projectRoot = "";
+			targets = (
+				7D37399E067A4BC9A7E63990 /* ALL_BUILD */,
+				F89CEF633BC94AAF9E0C8DC7 /* ZERO_CHECK */,
+				07DEF74D67B7444FA04CE7F9 /* install */,
+				7B50FFEE3A5341C198B212E4 /* eul_1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1DAD7F2344F542FA97BF6365 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		3F26F63DA83D45438EB84651 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/petros/Documents/projecteuler.net/Eul_1 -f /Users/petros/Documents/projecteuler.net/Eul_1/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		793B69D7C7C84F139E4C67E4 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		84A581DAE289410BABE5EDBD = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A6F27933A9F3442FA0C6251F /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/petros/Documents/projecteuler.net/Eul_1 -f /Users/petros/Documents/projecteuler.net/Eul_1/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		ED4E43252F3E43D08BB29987 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/petros/Documents/projecteuler.net/Eul_1 -f /Users/petros/Documents/projecteuler.net/Eul_1/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C32A0D71C744DC48F1B2AA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96947ADD495744DABB12C694 /* /Users/petros/Documents/projecteuler.net/Eul_1/src/main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24AC71D3705745A19A9C118E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F89CEF633BC94AAF9E0C8DC7 /* ZERO_CHECK */;
+			targetProxy = 20E60BE347BD4F2DA9D0429D /* PBXContainerItemProxy */;
+		};
+		5A1692A3AD9649BDADE94D35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D37399E067A4BC9A7E63990 /* ALL_BUILD */;
+			targetProxy = F2769442AA9D41D18AA38D3A /* PBXContainerItemProxy */;
+		};
+		C169FC40B0174E6698856C78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B50FFEE3A5341C198B212E4 /* eul_1 */;
+			targetProxy = 89F9AC5BF45D4CBEAAFF04F0 /* PBXContainerItemProxy */;
+		};
+		ECC59C19792C46639936A440 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F89CEF633BC94AAF9E0C8DC7 /* ZERO_CHECK */;
+			targetProxy = A0C8B8BCD0AE4353B32378B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		031E87AE4E1D4D1FA4B3E2CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/petros/Documents/projecteuler.net/Eul_1/src/headers);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/petros/Documents/projecteuler.net/Eul_1;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		22240811D16F4C0BA9F2EB45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/petros/Documents/projecteuler.net/Eul_1/src/headers);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/petros/Documents/projecteuler.net/Eul_1;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		2BB3349F8D8440B4B3E6FD58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/petros/Documents/projecteuler.net/Eul_1/build/bin/Release;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'GIT_BRANCH=Unknown'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/petros/Documents/projecteuler.net/Eul_1/src,/Users/petros/Documents/projecteuler.net/Eul_1/src/headers);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = eul_1;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/petros/Documents/projecteuler.net/Eul_1/src;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		63359A12581F4433890A3A64 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/petros/Documents/projecteuler.net/Eul_1/build/bin/RelWithDebInfo;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'GIT_BRANCH=Unknown'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/petros/Documents/projecteuler.net/Eul_1/src,/Users/petros/Documents/projecteuler.net/Eul_1/src/headers);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = eul_1;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/petros/Documents/projecteuler.net/Eul_1/src;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		6C1AFD2AA9F64F459D4E8630 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/petros/Documents/projecteuler.net/Eul_1/src/headers);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/petros/Documents/projecteuler.net/Eul_1;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		6EDE0715513242AAA5ACC028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = /Users/petros/Documents/projecteuler.net/Eul_1/build;
+			};
+			name = Release;
+		};
+		7705E35C70F44368997F066B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = /Users/petros/Documents/projecteuler.net/Eul_1/build;
+			};
+			name = RelWithDebInfo;
+		};
+		77CB7185E6C04391922C3703 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/petros/Documents/projecteuler.net/Eul_1/src/headers);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/petros/Documents/projecteuler.net/Eul_1;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		78A1E08EB49F4D78AEA62A25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/petros/Documents/projecteuler.net/Eul_1/src/headers);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/petros/Documents/projecteuler.net/Eul_1;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		7B2F65EF7A634330BFA067DE /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/petros/Documents/projecteuler.net/Eul_1/build/bin/MinSizeRel;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'GIT_BRANCH=Unknown'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/petros/Documents/projecteuler.net/Eul_1/src,/Users/petros/Documents/projecteuler.net/Eul_1/src/headers);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = eul_1;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/petros/Documents/projecteuler.net/Eul_1/src;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		7CB40FD10A2B4059A6BCCEBB /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/petros/Documents/projecteuler.net/Eul_1/src/headers);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/petros/Documents/projecteuler.net/Eul_1;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		7CF02A6CAED744BAA8252FFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = /Users/petros/Documents/projecteuler.net/Eul_1/build;
+			};
+			name = Debug;
+		};
+		7E77FAF38A704AFD88BAD8B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/petros/Documents/projecteuler.net/Eul_1/src/headers);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/petros/Documents/projecteuler.net/Eul_1;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		826DF65E52A24D78BF67F512 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = /Users/petros/Documents/projecteuler.net/Eul_1/build;
+			};
+			name = MinSizeRel;
+		};
+		A1ACABEC5CD04B8090B2EA5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/petros/Documents/projecteuler.net/Eul_1/build/bin/Debug;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","'GIT_BRANCH=Unknown'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/petros/Documents/projecteuler.net/Eul_1/src,/Users/petros/Documents/projecteuler.net/Eul_1/src/headers);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = eul_1;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/petros/Documents/projecteuler.net/Eul_1/src;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		A55DA6E5007A4F96A1AA4ED1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/petros/Documents/projecteuler.net/Eul_1/src/headers);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/petros/Documents/projecteuler.net/Eul_1;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		CF85D42389694AD996EFBD78 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/petros/Documents/projecteuler.net/Eul_1/src/headers);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/petros/Documents/projecteuler.net/Eul_1;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D773226348E2476BBE80ADFE /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/petros/Documents/projecteuler.net/Eul_1/src/headers);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/petros/Documents/projecteuler.net/Eul_1;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		E146CF21FCCC4D6FB9EB1B10 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/petros/Documents/projecteuler.net/Eul_1/src/headers);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/petros/Documents/projecteuler.net/Eul_1;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E781E45DCC984DFF9FDA8A24 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/petros/Documents/projecteuler.net/Eul_1/src/headers);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/petros/Documents/projecteuler.net/Eul_1;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10081B26E00146CAA6E32B27 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78A1E08EB49F4D78AEA62A25 /* Debug */,
+				7E77FAF38A704AFD88BAD8B4 /* Release */,
+				E781E45DCC984DFF9FDA8A24 /* MinSizeRel */,
+				CF85D42389694AD996EFBD78 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D59CA7C92B704AC38ED740CC /* Build configuration list for PBXProject "eul_1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CF02A6CAED744BAA8252FFE /* Debug */,
+				6EDE0715513242AAA5ACC028 /* Release */,
+				826DF65E52A24D78BF67F512 /* MinSizeRel */,
+				7705E35C70F44368997F066B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D7ED6C910A8D4E8F8894795A /* Build configuration list for PBXNativeTarget "eul_1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1ACABEC5CD04B8090B2EA5A /* Debug */,
+				2BB3349F8D8440B4B3E6FD58 /* Release */,
+				7B2F65EF7A634330BFA067DE /* MinSizeRel */,
+				63359A12581F4433890A3A64 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EC88F1EBD67A42799B9B4810 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C1AFD2AA9F64F459D4E8630 /* Debug */,
+				031E87AE4E1D4D1FA4B3E2CA /* Release */,
+				D773226348E2476BBE80ADFE /* MinSizeRel */,
+				E146CF21FCCC4D6FB9EB1B10 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F5C8E0F277264199B7E9EA86 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22240811D16F4C0BA9F2EB45 /* Debug */,
+				A55DA6E5007A4F96A1AA4ED1 /* Release */,
+				7CB40FD10A2B4059A6BCCEBB /* MinSizeRel */,
+				77CB7185E6C04391922C3703 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0FC2D40215054DA0980BD6B1 /* Project object */;
+}
